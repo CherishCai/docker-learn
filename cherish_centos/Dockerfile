@@ -4,7 +4,7 @@ ENV REFRESHED_AT=2018-06-12
 
 RUN curl https://setup.ius.io | sh
 RUN yum update -y
-RUN yum -y remove git | yum -y install git2u
+RUN yum -y install git2u
 
 RUN yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 
